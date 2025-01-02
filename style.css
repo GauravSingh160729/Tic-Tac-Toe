@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: blue; */
+}
+
+nav{
+    background-color: black;
+    color: white;
+    height: 6rem;
+    text-align: center;
+    font-size: 2rem;
+    overflow: scroll;
+
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+
+    height: auto;
+    margin-top: 34px
+}
+
+.imgbox img{
+    height: 6rem;
+    width: 5rem;
+    display: none;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+}
+ .box{
+    border: 1px solid black;
+    font-size:5vw;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgb(209, 188, 209);
+}
+
+.bt{
+    border-top: none;
+}
+.bb{
+    border-bottom:none;
+}
+.bl{
+    border-left: none;
+}
+.br{
+    border-right:none;
+}
+
+
+h1{
+    margin-bottom: 3rem;
+}
+
+.info{
+    margin-left: 2rem;
+}
